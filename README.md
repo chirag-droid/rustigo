@@ -1,13 +1,13 @@
-# The Redox Programming Language
+# The Rustigo Programming Language
 
 A general purpose programming language written in Rust.
 
-## What is Redox?
+## What is Rustigo?
 
-Redox is a `general purpose` interpreted programming language with
-syntax inspired by languages like rust, python, javascript etc. It is 
+Rustigo is a general purpose interpreted programming language with
+syntax inspired by languages like rust, go, python, javascript etc. It is 
 a strictly typed language that supports class based, and functional programming.
 
-## Why Redox?
+## Why Rustigo?
 
 For now the language exists, just because I wanted to make it.
