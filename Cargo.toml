@@ -1,5 +1,5 @@
 [package]
-name = "redox"
+name = "rustigo"
 version = "0.1.0"
 authors = ["Chirag Singla <chirag.singla.pi@gmail.com>"]
 edition = "2021"
