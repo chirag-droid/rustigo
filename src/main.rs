@@ -7,7 +7,7 @@ use lexer::tokenize;
 use std::io::Write;
 
 fn main() {
-  println!("Welcome To Rustic!!");
+  println!("Welcome To Rustigo!!");
   loop {
     print!(">>> ");
     std::io::stdout().flush().expect("Couldn't flush to output");
