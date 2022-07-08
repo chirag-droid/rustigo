@@ -1,7 +1,9 @@
 use logos::Logos;
 use std::str::FromStr;
 
-#[derive(Logos, Debug)]
+/// Stores all the info about the tokens and
+/// has information on how to tokenise them
+#[derive(Logos, Debug, Clone)]
 pub enum Token {
   #[token("return")]
   KeywordReturn,
