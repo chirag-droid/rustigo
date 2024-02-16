@@ -1,0 +1,19 @@
+use crate::errors::RuntimeError;
+use crate::token::Token;
+
+grammar;
+
+pub Term: i128 = {
+  <n:Num> => n,
+  "(" <t:Term> ")" => t,
+};
+
+extern {
+  type Location = usize;
+  type Error = RuntimeError;
+  enum Token {
+    "(" => Token::LeftParen,
+    ")" => Token::RightParen,
+    Num => Token::Number(<i128>)
+  }
+}
